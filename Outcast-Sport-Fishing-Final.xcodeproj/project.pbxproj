@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DCA56441E200CAD00B9C75D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA56431E200CAD00B9C75D /* AppDelegate.swift */; };
+		0DCA56491E200CAD00B9C75D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DCA56471E200CAD00B9C75D /* Main.storyboard */; };
+		0DCA564B1E200CAD00B9C75D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DCA564A1E200CAD00B9C75D /* Assets.xcassets */; };
+		0DCA564E1E200CAD00B9C75D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DCA564C1E200CAD00B9C75D /* LaunchScreen.storyboard */; };
+		0DCA56591E200CAD00B9C75D /* Outcast_Sport_Fishing_FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA56581E200CAD00B9C75D /* Outcast_Sport_Fishing_FinalTests.swift */; };
+		0DCA56641E200CAD00B9C75D /* Outcast_Sport_Fishing_FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA56631E200CAD00B9C75D /* Outcast_Sport_Fishing_FinalUITests.swift */; };
+		0DCA56731E20291700B9C75D /* CaughtThisWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA56721E20291700B9C75D /* CaughtThisWeekViewController.swift */; };
+		0DCA56751E20297C00B9C75D /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA56741E20297C00B9C75D /* PhotosViewController.swift */; };
+		0DCA56771E2029C200B9C75D /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA56761E2029C200B9C75D /* NewsViewController.swift */; };
+		0DCA56791E202A2200B9C75D /* FAQsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA56781E202A2200B9C75D /* FAQsViewController.swift */; };
+		0DCA567B1E202A5200B9C75D /* MeetChipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA567A1E202A5200B9C75D /* MeetChipViewController.swift */; };
+		0DCA567D1E202A8500B9C75D /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA567C1E202A8500B9C75D /* VideosViewController.swift */; };
+		0DCA567F1E202ABD00B9C75D /* FishTargetedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA567E1E202ABD00B9C75D /* FishTargetedViewController.swift */; };
+		0DCA56811E202AEE00B9C75D /* CharterRatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA56801E202AEE00B9C75D /* CharterRatesViewController.swift */; };
+		0DCA56831E202E4500B9C75D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA56821E202E4500B9C75D /* MainViewController.swift */; };
+		0DCA56851E20317400B9C75D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DCA56841E20317400B9C75D /* GoogleService-Info.plist */; };
+		13798AC3A2FB2B231A8E0F02 /* libPods-Outcast-Sport-Fishing-Final.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A611BE5B2DF6A5D2EEA6B143 /* libPods-Outcast-Sport-Fishing-Final.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DCA56551E200CAD00B9C75D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DCA56381E200CAD00B9C75D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DCA563F1E200CAD00B9C75D;
+			remoteInfo = "Outcast-Sport-Fishing-Final";
+		};
+		0DCA56601E200CAD00B9C75D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DCA56381E200CAD00B9C75D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DCA563F1E200CAD00B9C75D;
+			remoteInfo = "Outcast-Sport-Fishing-Final";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DCA56401E200CAD00B9C75D /* Outcast-Sport-Fishing-Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Outcast-Sport-Fishing-Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DCA56431E200CAD00B9C75D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DCA56481E200CAD00B9C75D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DCA564A1E200CAD00B9C75D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DCA564D1E200CAD00B9C75D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DCA564F1E200CAD00B9C75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DCA56541E200CAD00B9C75D /* Outcast-Sport-Fishing-FinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Outcast-Sport-Fishing-FinalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DCA56581E200CAD00B9C75D /* Outcast_Sport_Fishing_FinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outcast_Sport_Fishing_FinalTests.swift; sourceTree = "<group>"; };
+		0DCA565A1E200CAD00B9C75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DCA565F1E200CAD00B9C75D /* Outcast-Sport-Fishing-FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Outcast-Sport-Fishing-FinalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DCA56631E200CAD00B9C75D /* Outcast_Sport_Fishing_FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outcast_Sport_Fishing_FinalUITests.swift; sourceTree = "<group>"; };
+		0DCA56651E200CAD00B9C75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DCA56721E20291700B9C75D /* CaughtThisWeekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaughtThisWeekViewController.swift; sourceTree = "<group>"; };
+		0DCA56741E20297C00B9C75D /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		0DCA56761E2029C200B9C75D /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		0DCA56781E202A2200B9C75D /* FAQsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQsViewController.swift; sourceTree = "<group>"; };
+		0DCA567A1E202A5200B9C75D /* MeetChipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetChipViewController.swift; sourceTree = "<group>"; };
+		0DCA567C1E202A8500B9C75D /* VideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		0DCA567E1E202ABD00B9C75D /* FishTargetedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FishTargetedViewController.swift; sourceTree = "<group>"; };
+		0DCA56801E202AEE00B9C75D /* CharterRatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharterRatesViewController.swift; sourceTree = "<group>"; };
+		0DCA56821E202E4500B9C75D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0DCA56841E20317400B9C75D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0DCA56861E20318900B9C75D /* Outcast-Sport-Fishing-Final.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Outcast-Sport-Fishing-Final.entitlements"; sourceTree = "<group>"; };
+		1ADC9DEE02C3C6C045665E2A /* Pods-Outcast-Sport-Fishing-Final.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Outcast-Sport-Fishing-Final.release.xcconfig"; path = "Pods/Target Support Files/Pods-Outcast-Sport-Fishing-Final/Pods-Outcast-Sport-Fishing-Final.release.xcconfig"; sourceTree = "<group>"; };
+		8F1D12BCF56E8133D72A35FF /* Pods-Outcast-Sport-Fishing-Final.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Outcast-Sport-Fishing-Final.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Outcast-Sport-Fishing-Final/Pods-Outcast-Sport-Fishing-Final.debug.xcconfig"; sourceTree = "<group>"; };
+		A611BE5B2DF6A5D2EEA6B143 /* libPods-Outcast-Sport-Fishing-Final.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Outcast-Sport-Fishing-Final.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DCA563D1E200CAD00B9C75D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13798AC3A2FB2B231A8E0F02 /* libPods-Outcast-Sport-Fishing-Final.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DCA56511E200CAD00B9C75D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DCA565C1E200CAD00B9C75D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A4B345B080D6BA36E22E705 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A611BE5B2DF6A5D2EEA6B143 /* libPods-Outcast-Sport-Fishing-Final.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DCA56371E200CAD00B9C75D = {
+			isa = PBXGroup;
+			children = (
+				0DCA56841E20317400B9C75D /* GoogleService-Info.plist */,
+				0DCA56421E200CAD00B9C75D /* Outcast-Sport-Fishing-Final */,
+				0DCA56571E200CAD00B9C75D /* Outcast-Sport-Fishing-FinalTests */,
+				0DCA56621E200CAD00B9C75D /* Outcast-Sport-Fishing-FinalUITests */,
+				0DCA56411E200CAD00B9C75D /* Products */,
+				6F21A378E111CC9BA6604F8B /* Pods */,
+				0A4B345B080D6BA36E22E705 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0DCA56411E200CAD00B9C75D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DCA56401E200CAD00B9C75D /* Outcast-Sport-Fishing-Final.app */,
+				0DCA56541E200CAD00B9C75D /* Outcast-Sport-Fishing-FinalTests.xctest */,
+				0DCA565F1E200CAD00B9C75D /* Outcast-Sport-Fishing-FinalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DCA56421E200CAD00B9C75D /* Outcast-Sport-Fishing-Final */ = {
+			isa = PBXGroup;
+			children = (
+				0DCA56861E20318900B9C75D /* Outcast-Sport-Fishing-Final.entitlements */,
+				0DCA56711E20285E00B9C75D /* View Controllers */,
+				0DCA56431E200CAD00B9C75D /* AppDelegate.swift */,
+				0DCA56471E200CAD00B9C75D /* Main.storyboard */,
+				0DCA564A1E200CAD00B9C75D /* Assets.xcassets */,
+				0DCA564C1E200CAD00B9C75D /* LaunchScreen.storyboard */,
+				0DCA564F1E200CAD00B9C75D /* Info.plist */,
+			);
+			path = "Outcast-Sport-Fishing-Final";
+			sourceTree = "<group>";
+		};
+		0DCA56571E200CAD00B9C75D /* Outcast-Sport-Fishing-FinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DCA56581E200CAD00B9C75D /* Outcast_Sport_Fishing_FinalTests.swift */,
+				0DCA565A1E200CAD00B9C75D /* Info.plist */,
+			);
+			path = "Outcast-Sport-Fishing-FinalTests";
+			sourceTree = "<group>";
+		};
+		0DCA56621E200CAD00B9C75D /* Outcast-Sport-Fishing-FinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DCA56631E200CAD00B9C75D /* Outcast_Sport_Fishing_FinalUITests.swift */,
+				0DCA56651E200CAD00B9C75D /* Info.plist */,
+			);
+			path = "Outcast-Sport-Fishing-FinalUITests";
+			sourceTree = "<group>";
+		};
+		0DCA56711E20285E00B9C75D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DCA56721E20291700B9C75D /* CaughtThisWeekViewController.swift */,
+				0DCA56741E20297C00B9C75D /* PhotosViewController.swift */,
+				0DCA56761E2029C200B9C75D /* NewsViewController.swift */,
+				0DCA56781E202A2200B9C75D /* FAQsViewController.swift */,
+				0DCA567A1E202A5200B9C75D /* MeetChipViewController.swift */,
+				0DCA567C1E202A8500B9C75D /* VideosViewController.swift */,
+				0DCA567E1E202ABD00B9C75D /* FishTargetedViewController.swift */,
+				0DCA56801E202AEE00B9C75D /* CharterRatesViewController.swift */,
+				0DCA56821E202E4500B9C75D /* MainViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6F21A378E111CC9BA6604F8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F1D12BCF56E8133D72A35FF /* Pods-Outcast-Sport-Fishing-Final.debug.xcconfig */,
+				1ADC9DEE02C3C6C045665E2A /* Pods-Outcast-Sport-Fishing-Final.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DCA563F1E200CAD00B9C75D /* Outcast-Sport-Fishing-Final */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DCA56681E200CAD00B9C75D /* Build configuration list for PBXNativeTarget "Outcast-Sport-Fishing-Final" */;
+			buildPhases = (
+				3D18DDB54CD2A40D3DDA732F /* [CP] Check Pods Manifest.lock */,
+				0DCA563C1E200CAD00B9C75D /* Sources */,
+				0DCA563D1E200CAD00B9C75D /* Frameworks */,
+				0DCA563E1E200CAD00B9C75D /* Resources */,
+				EE103071E50F545A71C04112 /* [CP] Embed Pods Frameworks */,
+				DC40F5E3E8041ED8A0A3C31D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Outcast-Sport-Fishing-Final";
+			productName = "Outcast-Sport-Fishing-Final";
+			productReference = 0DCA56401E200CAD00B9C75D /* Outcast-Sport-Fishing-Final.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DCA56531E200CAD00B9C75D /* Outcast-Sport-Fishing-FinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DCA566B1E200CAD00B9C75D /* Build configuration list for PBXNativeTarget "Outcast-Sport-Fishing-FinalTests" */;
+			buildPhases = (
+				0DCA56501E200CAD00B9C75D /* Sources */,
+				0DCA56511E200CAD00B9C75D /* Frameworks */,
+				0DCA56521E200CAD00B9C75D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DCA56561E200CAD00B9C75D /* PBXTargetDependency */,
+			);
+			name = "Outcast-Sport-Fishing-FinalTests";
+			productName = "Outcast-Sport-Fishing-FinalTests";
+			productReference = 0DCA56541E200CAD00B9C75D /* Outcast-Sport-Fishing-FinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DCA565E1E200CAD00B9C75D /* Outcast-Sport-Fishing-FinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DCA566E1E200CAD00B9C75D /* Build configuration list for PBXNativeTarget "Outcast-Sport-Fishing-FinalUITests" */;
+			buildPhases = (
+				0DCA565B1E200CAD00B9C75D /* Sources */,
+				0DCA565C1E200CAD00B9C75D /* Frameworks */,
+				0DCA565D1E200CAD00B9C75D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DCA56611E200CAD00B9C75D /* PBXTargetDependency */,
+			);
+			name = "Outcast-Sport-Fishing-FinalUITests";
+			productName = "Outcast-Sport-Fishing-FinalUITests";
+			productReference = 0DCA565F1E200CAD00B9C75D /* Outcast-Sport-Fishing-FinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DCA56381E200CAD00B9C75D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alpha Dev";
+				TargetAttributes = {
+					0DCA563F1E200CAD00B9C75D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CWAAPTL6QZ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					0DCA56531E200CAD00B9C75D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CWAAPTL6QZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0DCA563F1E200CAD00B9C75D;
+					};
+					0DCA565E1E200CAD00B9C75D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CWAAPTL6QZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0DCA563F1E200CAD00B9C75D;
+					};
+				};
+			};
+			buildConfigurationList = 0DCA563B1E200CAD00B9C75D /* Build configuration list for PBXProject "Outcast-Sport-Fishing-Final" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DCA56371E200CAD00B9C75D;
+			productRefGroup = 0DCA56411E200CAD00B9C75D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DCA563F1E200CAD00B9C75D /* Outcast-Sport-Fishing-Final */,
+				0DCA56531E200CAD00B9C75D /* Outcast-Sport-Fishing-FinalTests */,
+				0DCA565E1E200CAD00B9C75D /* Outcast-Sport-Fishing-FinalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DCA563E1E200CAD00B9C75D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCA564E1E200CAD00B9C75D /* LaunchScreen.storyboard in Resources */,
+				0DCA564B1E200CAD00B9C75D /* Assets.xcassets in Resources */,
+				0DCA56491E200CAD00B9C75D /* Main.storyboard in Resources */,
+				0DCA56851E20317400B9C75D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DCA56521E200CAD00B9C75D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DCA565D1E200CAD00B9C75D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D18DDB54CD2A40D3DDA732F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC40F5E3E8041ED8A0A3C31D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Outcast-Sport-Fishing-Final/Pods-Outcast-Sport-Fishing-Final-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE103071E50F545A71C04112 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Outcast-Sport-Fishing-Final/Pods-Outcast-Sport-Fishing-Final-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DCA563C1E200CAD00B9C75D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCA56831E202E4500B9C75D /* MainViewController.swift in Sources */,
+				0DCA56791E202A2200B9C75D /* FAQsViewController.swift in Sources */,
+				0DCA56811E202AEE00B9C75D /* CharterRatesViewController.swift in Sources */,
+				0DCA56751E20297C00B9C75D /* PhotosViewController.swift in Sources */,
+				0DCA56441E200CAD00B9C75D /* AppDelegate.swift in Sources */,
+				0DCA56771E2029C200B9C75D /* NewsViewController.swift in Sources */,
+				0DCA56731E20291700B9C75D /* CaughtThisWeekViewController.swift in Sources */,
+				0DCA567D1E202A8500B9C75D /* VideosViewController.swift in Sources */,
+				0DCA567B1E202A5200B9C75D /* MeetChipViewController.swift in Sources */,
+				0DCA567F1E202ABD00B9C75D /* FishTargetedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DCA56501E200CAD00B9C75D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCA56591E200CAD00B9C75D /* Outcast_Sport_Fishing_FinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DCA565B1E200CAD00B9C75D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCA56641E200CAD00B9C75D /* Outcast_Sport_Fishing_FinalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DCA56561E200CAD00B9C75D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DCA563F1E200CAD00B9C75D /* Outcast-Sport-Fishing-Final */;
+			targetProxy = 0DCA56551E200CAD00B9C75D /* PBXContainerItemProxy */;
+		};
+		0DCA56611E200CAD00B9C75D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DCA563F1E200CAD00B9C75D /* Outcast-Sport-Fishing-Final */;
+			targetProxy = 0DCA56601E200CAD00B9C75D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DCA56471E200CAD00B9C75D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DCA56481E200CAD00B9C75D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DCA564C1E200CAD00B9C75D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DCA564D1E200CAD00B9C75D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DCA56661E200CAD00B9C75D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DCA56671E200CAD00B9C75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DCA56691E200CAD00B9C75D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F1D12BCF56E8133D72A35FF /* Pods-Outcast-Sport-Fishing-Final.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Outcast-Sport-Fishing-Final/Outcast-Sport-Fishing-Final.entitlements";
+				DEVELOPMENT_TEAM = CWAAPTL6QZ;
+				INFOPLIST_FILE = "Outcast-Sport-Fishing-Final/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlphaDev.Outcast-Sport-Fishing-Final";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DCA566A1E200CAD00B9C75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ADC9DEE02C3C6C045665E2A /* Pods-Outcast-Sport-Fishing-Final.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Outcast-Sport-Fishing-Final/Outcast-Sport-Fishing-Final.entitlements";
+				DEVELOPMENT_TEAM = CWAAPTL6QZ;
+				INFOPLIST_FILE = "Outcast-Sport-Fishing-Final/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlphaDev.Outcast-Sport-Fishing-Final";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DCA566C1E200CAD00B9C75D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CWAAPTL6QZ;
+				INFOPLIST_FILE = "Outcast-Sport-Fishing-FinalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlphaDev.Outcast-Sport-Fishing-FinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Outcast-Sport-Fishing-Final.app/Outcast-Sport-Fishing-Final";
+			};
+			name = Debug;
+		};
+		0DCA566D1E200CAD00B9C75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CWAAPTL6QZ;
+				INFOPLIST_FILE = "Outcast-Sport-Fishing-FinalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlphaDev.Outcast-Sport-Fishing-FinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Outcast-Sport-Fishing-Final.app/Outcast-Sport-Fishing-Final";
+			};
+			name = Release;
+		};
+		0DCA566F1E200CAD00B9C75D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CWAAPTL6QZ;
+				INFOPLIST_FILE = "Outcast-Sport-Fishing-FinalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlphaDev.Outcast-Sport-Fishing-FinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Outcast-Sport-Fishing-Final";
+			};
+			name = Debug;
+		};
+		0DCA56701E200CAD00B9C75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CWAAPTL6QZ;
+				INFOPLIST_FILE = "Outcast-Sport-Fishing-FinalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlphaDev.Outcast-Sport-Fishing-FinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Outcast-Sport-Fishing-Final";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DCA563B1E200CAD00B9C75D /* Build configuration list for PBXProject "Outcast-Sport-Fishing-Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DCA56661E200CAD00B9C75D /* Debug */,
+				0DCA56671E200CAD00B9C75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DCA56681E200CAD00B9C75D /* Build configuration list for PBXNativeTarget "Outcast-Sport-Fishing-Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DCA56691E200CAD00B9C75D /* Debug */,
+				0DCA566A1E200CAD00B9C75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DCA566B1E200CAD00B9C75D /* Build configuration list for PBXNativeTarget "Outcast-Sport-Fishing-FinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DCA566C1E200CAD00B9C75D /* Debug */,
+				0DCA566D1E200CAD00B9C75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DCA566E1E200CAD00B9C75D /* Build configuration list for PBXNativeTarget "Outcast-Sport-Fishing-FinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DCA566F1E200CAD00B9C75D /* Debug */,
+				0DCA56701E200CAD00B9C75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DCA56381E200CAD00B9C75D /* Project object */;
+}

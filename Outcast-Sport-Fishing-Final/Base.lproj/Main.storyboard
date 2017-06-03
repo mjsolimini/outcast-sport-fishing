@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Outcast_Sport_Fishing_Final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Outcast-Sport-Fishing-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="QbZ-MK-U3f">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135" id="h5F-Ob-mgI"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="ZZK-Ij-2IA">
+                                <rect key="frame" x="94.5" y="143" width="185" height="45"/>
+                                <subviews>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRg-wV-DG9">
+                                        <rect key="frame" x="0.0" y="0.0" width="45" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="dkF-qm-EZ9"/>
+                                            <constraint firstAttribute="width" constant="45" id="kiB-LM-wrF"/>
+                                        </constraints>
+                                        <state key="normal" image="FB-f-Logo__blue_512"/>
+                                        <connections>
+                                            <action selector="FBBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WZY-ZD-O1u"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0FQ-aT-nM8">
+                                        <rect key="frame" x="70" y="0.0" width="45" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="n22-mK-TyA"/>
+                                            <constraint firstAttribute="width" constant="45" id="s22-W6-q2R"/>
+                                        </constraints>
+                                        <state key="normal" image="Twitter_Logo_White_On_Blue"/>
+                                        <connections>
+                                            <action selector="TWTBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7pt-bp-lgm"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KFw-Sn-4Mj">
+                                        <rect key="frame" x="140" y="0.0" width="45" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="OJd-RM-F44"/>
+                                            <constraint firstAttribute="width" constant="45" id="dkF-0R-DHK"/>
+                                        </constraints>
+                                        <state key="normal" image="Instagram-icon"/>
+                                        <connections>
+                                            <action selector="InstaBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="adJ-d3-qNL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="c72-wf-3lv">
+                                <rect key="frame" x="26" y="193" width="323" height="384"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0b5-lz-5LB">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="384"/>
+                                        <subviews>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q47-4l-DPO">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="90"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="Pa5-wG-G2n"/>
+                                                    <constraint firstAttribute="height" constant="90" id="wIM-Oq-w0a"/>
+                                                </constraints>
+                                                <state key="normal" image="WCCCTWBtn"/>
+                                                <connections>
+                                                    <segue destination="PWt-jD-0hN" kind="show" id="Ymg-i1-KkT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vet-WU-FTh">
+                                                <rect key="frame" x="0.0" y="98" width="150" height="90"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="Qvn-hN-1iI"/>
+                                                    <constraint firstAttribute="width" constant="150" id="cWc-1Z-70T"/>
+                                                </constraints>
+                                                <state key="normal" image="Photos"/>
+                                                <connections>
+                                                    <segue destination="iwj-xF-pfy" kind="show" id="PSU-Wq-gOn"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9tW-3h-Vbv">
+                                                <rect key="frame" x="0.0" y="196" width="150" height="90"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="d4O-YY-cE0"/>
+                                                    <constraint firstAttribute="width" constant="150" id="m5F-iV-UJk"/>
+                                                </constraints>
+                                                <state key="normal" image="NewsBtn"/>
+                                                <connections>
+                                                    <segue destination="LOg-RU-2JG" kind="show" id="beG-xw-ZxE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Fo-ez-wDn">
+                                                <rect key="frame" x="0.0" y="294" width="150" height="90"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="gfq-Vg-bx5"/>
+                                                    <constraint firstAttribute="height" constant="90" id="kYC-Vh-J0c"/>
+                                                </constraints>
+                                                <state key="normal" image="FAQs"/>
+                                                <connections>
+                                                    <segue destination="8iy-1o-gdr" kind="show" id="pzY-bu-m6C"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="MzI-Zr-7kG">
+                                        <rect key="frame" x="173" y="0.0" width="150" height="384"/>
+                                        <subviews>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M8X-wv-Nbw">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="90"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="J7J-vZ-uHv"/>
+                                                    <constraint firstAttribute="height" constant="90" id="rcS-27-FVu"/>
+                                                </constraints>
+                                                <state key="normal" image="MeetChip"/>
+                                                <connections>
+                                                    <segue destination="H25-62-ON6" kind="show" id="bpp-r9-Ejz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="24x-J8-S4R">
+                                                <rect key="frame" x="0.0" y="98" width="150" height="90"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="fR3-0s-hfj"/>
+                                                    <constraint firstAttribute="width" constant="150" id="wCP-WI-jGZ"/>
+                                                </constraints>
+                                                <state key="normal" image="Videos"/>
+                                                <connections>
+                                                    <segue destination="rUP-i1-lgj" kind="show" id="KaP-v8-mTA"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNE-Nl-pKi">
+                                                <rect key="frame" x="0.0" y="196" width="150" height="90"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="d8A-5Y-csw"/>
+                                                    <constraint firstAttribute="height" constant="90" id="yIO-hA-B64"/>
+                                                </constraints>
+                                                <state key="normal" image="FishTargeted"/>
+                                                <connections>
+                                                    <segue destination="gHn-hz-ydO" kind="show" id="hiT-97-dWh"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75i-e2-N1R">
+                                                <rect key="frame" x="0.0" y="294" width="150" height="90"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="9r2-7D-FYY"/>
+                                                    <constraint firstAttribute="height" constant="90" id="AVY-ZV-ezT"/>
+                                                </constraints>
+                                                <state key="normal" image="CharterRates"/>
+                                                <connections>
+                                                    <segue destination="2LE-uR-Q0Z" kind="show" id="N4h-OO-J58"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10586584359407425" green="0.10589186102151871" blue="0.10586420446634293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="c72-wf-3lv" firstAttribute="top" secondItem="ZZK-Ij-2IA" secondAttribute="bottom" constant="5" id="3e4-Ma-U8d"/>
+                            <constraint firstItem="c72-wf-3lv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Px-mi-Mzz"/>
+                            <constraint firstItem="ZZK-Ij-2IA" firstAttribute="top" secondItem="QbZ-MK-U3f" secondAttribute="bottom" constant="8" id="A5z-z1-fst"/>
+                            <constraint firstItem="QbZ-MK-U3f" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Apg-zZ-JGw"/>
+                            <constraint firstAttribute="trailing" secondItem="QbZ-MK-U3f" secondAttribute="trailing" id="Q4V-ks-vih"/>
+                            <constraint firstItem="ZZK-Ij-2IA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eFu-NR-CUj"/>
+                            <constraint firstItem="QbZ-MK-U3f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qoe-oS-arZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Caught" destination="Q47-4l-DPO" id="EB8-vU-ZyU"/>
+                        <outlet property="Chip" destination="M8X-wv-Nbw" id="XHF-XP-dcq"/>
+                        <outlet property="FAQs" destination="1Fo-ez-wDn" id="Sb7-wN-EaN"/>
+                        <outlet property="Facebook" destination="mRg-wV-DG9" id="YKz-d9-qxN"/>
+                        <outlet property="InstaBtn" destination="KFw-Sn-4Mj" id="wuf-0Q-PfI"/>
+                        <outlet property="News" destination="9tW-3h-Vbv" id="0BN-zi-9HP"/>
+                        <outlet property="PhotosBtn" destination="Vet-WU-FTh" id="Dam-Zq-pOU"/>
+                        <outlet property="Rates" destination="75i-e2-N1R" id="l6T-av-hNP"/>
+                        <outlet property="TWT" destination="0FQ-aT-nM8" id="izb-zb-LlX"/>
+                        <outlet property="Targeted" destination="MNE-Nl-pKi" id="NWq-mL-x0r"/>
+                        <outlet property="VideosBtn" destination="24x-J8-S4R" id="Fc1-RM-RGU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="114" y="142"/>
+        </scene>
+        <!--Caught This Week View Controller-->
+        <scene sceneID="oAs-fF-eop">
+            <objects>
+                <viewController id="PWt-jD-0hN" customClass="CaughtThisWeekViewController" customModule="Outcast_Sport_Fishing_Final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ky7-69-Glz"/>
+                        <viewControllerLayoutGuide type="bottom" id="U7B-Uk-0Zs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4iP-TD-MAv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nIT-bW-eDh">
+                                <rect key="frame" x="0.0" y="20" width="375" height="614"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvF-qk-f4E">
+                                <rect key="frame" x="310" y="626" width="49" height="33"/>
+                                <state key="normal" image="SharkBtn">
+                                    <color key="titleColor" red="0.80373185869999997" green="0.37657582760000002" blue="0.0035840924829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="HomePressed:" destination="PWt-jD-0hN" eventType="touchUpInside" id="i0C-Vs-zKq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="nIT-bW-eDh" firstAttribute="leading" secondItem="4iP-TD-MAv" secondAttribute="leading" id="Bq8-Ke-Hca"/>
+                            <constraint firstItem="jvF-qk-f4E" firstAttribute="trailing" secondItem="4iP-TD-MAv" secondAttribute="trailingMargin" id="Csi-1z-cEf"/>
+                            <constraint firstAttribute="trailing" secondItem="nIT-bW-eDh" secondAttribute="trailing" id="EFG-gC-HPy"/>
+                            <constraint firstItem="U7B-Uk-0Zs" firstAttribute="top" secondItem="jvF-qk-f4E" secondAttribute="bottom" constant="8" id="GN1-d2-TVP"/>
+                            <constraint firstItem="U7B-Uk-0Zs" firstAttribute="top" secondItem="nIT-bW-eDh" secondAttribute="bottom" constant="33" id="Gbs-tu-4DO"/>
+                            <constraint firstItem="nIT-bW-eDh" firstAttribute="top" secondItem="Ky7-69-Glz" secondAttribute="bottom" id="Pm0-V6-BeJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Container" destination="nIT-bW-eDh" id="4RS-pB-PZV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nQv-fC-XLW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="804" y="-196"/>
+        </scene>
+        <!--Photos View Controller-->
+        <scene sceneID="7Ov-x5-idI">
+            <objects>
+                <viewController id="iwj-xF-pfy" customClass="PhotosViewController" customModule="Outcast_Sport_Fishing_Final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0n1-zl-va1"/>
+                        <viewControllerLayoutGuide type="bottom" id="mkE-xa-66S"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d1Y-3L-FgW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kqH-Bc-coO">
+                                <rect key="frame" x="0.0" y="20" width="375" height="613"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8eM-A8-ZmP">
+                                <rect key="frame" x="310" y="626" width="49" height="33"/>
+                                <state key="normal" image="SharkBtn">
+                                    <color key="titleColor" red="0.80373185869999997" green="0.37657582760000002" blue="0.0035840924829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="HomePressed:" destination="iwj-xF-pfy" eventType="touchUpInside" id="QE0-ap-p08"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="kqH-Bc-coO" firstAttribute="leading" secondItem="d1Y-3L-FgW" secondAttribute="leading" id="A6d-J9-UwI"/>
+                            <constraint firstItem="mkE-xa-66S" firstAttribute="top" secondItem="8eM-A8-ZmP" secondAttribute="bottom" constant="8" id="DHp-EU-zT1"/>
+                            <constraint firstItem="mkE-xa-66S" firstAttribute="top" secondItem="kqH-Bc-coO" secondAttribute="bottom" constant="34" id="GGH-9q-n2f"/>
+                            <constraint firstItem="kqH-Bc-coO" firstAttribute="top" secondItem="0n1-zl-va1" secondAttribute="bottom" id="ZK0-bg-ZPt"/>
+                            <constraint firstAttribute="trailing" secondItem="kqH-Bc-coO" secondAttribute="trailing" id="bAi-cK-EBX"/>
+                            <constraint firstItem="8eM-A8-ZmP" firstAttribute="trailing" secondItem="d1Y-3L-FgW" secondAttribute="trailingMargin" id="ehL-rS-tPR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Container" destination="kqH-Bc-coO" id="TGL-NW-Mjx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a9o-Ks-AvC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1492" y="-197"/>
+        </scene>
+        <!--News View Controller-->
+        <scene sceneID="5MV-vD-Vh5">
+            <objects>
+                <viewController id="LOg-RU-2JG" customClass="NewsViewController" customModule="Outcast_Sport_Fishing_Final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cY2-RG-V3R"/>
+                        <viewControllerLayoutGuide type="bottom" id="ijx-w7-Tco"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fod-ug-39g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mPz-Qu-tsU">
+                                <rect key="frame" x="310" y="626" width="49" height="33"/>
+                                <state key="normal" image="SharkBtn">
+                                    <color key="titleColor" red="0.80373185869999997" green="0.37657582760000002" blue="0.0035840924829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="HomePressed:" destination="LOg-RU-2JG" eventType="touchUpInside" id="mcu-n3-atY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Captain Chip Making News" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y09-qr-cio">
+                                <rect key="frame" x="16" y="20" width="343" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="0zH-3Q-W7q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" red="0.80373185869999997" green="0.37657582760000002" blue="0.0035840924829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="We8-1H-Ksk">
+                                <rect key="frame" x="-292" y="62" width="960" height="486"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CaptChip" translatesAutoresizingMaskIntoConstraints="NO" id="eO9-Nt-duZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="960" height="170"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="170" id="3IP-8M-Fib"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="e7e-1e-tav">
+                                        <rect key="frame" x="0.0" y="176" width="960" height="310"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XF0-xn-Lig">
+                                                <rect key="frame" x="334" y="0.0" width="293" height="38"/>
+                                                <state key="normal" title="I Caught a 2,500lbs Shark on road and reel"/>
+                                                <connections>
+                                                    <action selector="lbs:" destination="LOg-RU-2JG" eventType="touchUpInside" id="C8T-fN-VXv"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2U-wm-U7V">
+                                                <rect key="frame" x="338" y="42" width="285" height="30"/>
+                                                <state key="normal" title="Great White Shark Caught on the Outcast"/>
+                                                <connections>
+                                                    <action selector="GWS:" destination="LOg-RU-2JG" eventType="touchUpInside" id="kdc-5p-J7J"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2un-mv-hK3">
+                                                <rect key="frame" x="345" y="76" width="271" height="30"/>
+                                                <state key="normal" title="Chip tagging Tiger sharks with Ocearch"/>
+                                                <connections>
+                                                    <action selector="Ocearch:" destination="LOg-RU-2JG" eventType="touchUpInside" id="HIa-ow-pcP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ghh-57-TOf">
+                                                <rect key="frame" x="354" y="110" width="253" height="30"/>
+                                                <state key="normal" title="Captain Chip on the 10 O'clock News"/>
+                                                <connections>
+                                                    <action selector="Ocearch:" destination="LOg-RU-2JG" eventType="touchUpInside" id="kbT-82-tnz"/>
+                                                    <action selector="OclockNews:" destination="LOg-RU-2JG" eventType="touchUpInside" id="qq5-1S-jT5"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oI6-ER-nMw">
+                                                <rect key="frame" x="358" y="144" width="244" height="30"/>
+                                                <state key="normal" title="2016-Hooked 5 Great White Sharks"/>
+                                                <connections>
+                                                    <action selector="Hooked5GreatWhites:" destination="LOg-RU-2JG" eventType="touchUpInside" id="SWV-86-yYs"/>
+                                                    <action selector="Ocearch:" destination="LOg-RU-2JG" eventType="touchUpInside" id="jKd-1w-csl"/>
+                                                    <action selector="OclockNews:" destination="LOg-RU-2JG" eventType="touchUpInside" id="J2f-Tn-f6d"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nsA-c0-hMD">
+                                                <rect key="frame" x="330" y="178" width="301" height="30"/>
+                                                <state key="normal" title="Helping scientists unlock migration patterns"/>
+                                                <connections>
+                                                    <action selector="Hooked5GreatWhites:" destination="LOg-RU-2JG" eventType="touchUpInside" id="geO-58-121"/>
+                                                    <action selector="Migration:" destination="LOg-RU-2JG" eventType="touchUpInside" id="OMw-hb-1WK"/>
+                                                    <action selector="Ocearch:" destination="LOg-RU-2JG" eventType="touchUpInside" id="eR5-bw-oID"/>
+                                                    <action selector="OclockNews:" destination="LOg-RU-2JG" eventType="touchUpInside" id="pmR-ad-IX4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fgg-IL-IOF">
+                                                <rect key="frame" x="393" y="212" width="174" height="30"/>
+                                                <state key="normal" title="Captain Chip Saves a Life"/>
+                                                <connections>
+                                                    <action selector="Hooked5GreatWhites:" destination="LOg-RU-2JG" eventType="touchUpInside" id="S8y-zc-7xi"/>
+                                                    <action selector="Life:" destination="LOg-RU-2JG" eventType="touchUpInside" id="rpo-Zm-mYA"/>
+                                                    <action selector="Migration:" destination="LOg-RU-2JG" eventType="touchUpInside" id="4eI-0a-tfv"/>
+                                                    <action selector="Ocearch:" destination="LOg-RU-2JG" eventType="touchUpInside" id="rWk-PG-gTO"/>
+                                                    <action selector="OclockNews:" destination="LOg-RU-2JG" eventType="touchUpInside" id="lqE-Ju-fOd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bLi-Oe-9QY">
+                                                <rect key="frame" x="318" y="246" width="324" height="30"/>
+                                                <state key="normal" title="Tenessee native breaks record first time fishing"/>
+                                                <connections>
+                                                    <action selector="Hooked5GreatWhites:" destination="LOg-RU-2JG" eventType="touchUpInside" id="tpE-82-NXx"/>
+                                                    <action selector="Life:" destination="LOg-RU-2JG" eventType="touchUpInside" id="CRv-oB-IJX"/>
+                                                    <action selector="Migration:" destination="LOg-RU-2JG" eventType="touchUpInside" id="rRI-XF-Hvh"/>
+                                                    <action selector="Ocearch:" destination="LOg-RU-2JG" eventType="touchUpInside" id="UT5-Pj-b29"/>
+                                                    <action selector="OclockNews:" destination="LOg-RU-2JG" eventType="touchUpInside" id="o5J-e0-uxW"/>
+                                                    <action selector="Tenessee:" destination="LOg-RU-2JG" eventType="touchUpInside" id="7lH-mW-5TD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jz3-OA-tnV">
+                                                <rect key="frame" x="382" y="280" width="196" height="30"/>
+                                                <state key="normal" title="Illinois dentist lands a record"/>
+                                                <connections>
+                                                    <action selector="Dentist:" destination="LOg-RU-2JG" eventType="touchUpInside" id="ZL6-fO-A7f"/>
+                                                    <action selector="Hooked5GreatWhites:" destination="LOg-RU-2JG" eventType="touchUpInside" id="qkC-1w-eeo"/>
+                                                    <action selector="Life:" destination="LOg-RU-2JG" eventType="touchUpInside" id="eqq-JC-67c"/>
+                                                    <action selector="Migration:" destination="LOg-RU-2JG" eventType="touchUpInside" id="m70-ii-a39"/>
+                                                    <action selector="Ocearch:" destination="LOg-RU-2JG" eventType="touchUpInside" id="VYH-Si-3Bc"/>
+                                                    <action selector="OclockNews:" destination="LOg-RU-2JG" eventType="touchUpInside" id="caa-wd-SOH"/>
+                                                    <action selector="Tenessee:" destination="LOg-RU-2JG" eventType="touchUpInside" id="utd-st-aCN"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="310" id="lSd-VP-ayr"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="ijx-w7-Tco" firstAttribute="top" secondItem="mPz-Qu-tsU" secondAttribute="bottom" constant="8" id="7vy-Pf-nGv"/>
+                            <constraint firstItem="y09-qr-cio" firstAttribute="trailing" secondItem="Fod-ug-39g" secondAttribute="trailingMargin" id="8wQ-PO-7Tc"/>
+                            <constraint firstItem="y09-qr-cio" firstAttribute="top" secondItem="cY2-RG-V3R" secondAttribute="bottom" id="Rlw-pe-NRQ"/>
+                            <constraint firstItem="We8-1H-Ksk" firstAttribute="centerX" secondItem="Fod-ug-39g" secondAttribute="centerX" id="XPV-vL-Hpw"/>
+                            <constraint firstItem="We8-1H-Ksk" firstAttribute="top" secondItem="y09-qr-cio" secondAttribute="bottom" constant="8" id="bpG-wR-aeg"/>
+                            <constraint firstItem="y09-qr-cio" firstAttribute="leading" secondItem="Fod-ug-39g" secondAttribute="leadingMargin" id="gT7-ZO-qpq"/>
+                            <constraint firstItem="mPz-Qu-tsU" firstAttribute="trailing" secondItem="Fod-ug-39g" secondAttribute="trailingMargin" id="mKh-72-em5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="grY-AI-IQA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2153" y="-197"/>
+        </scene>
+        <!--Qs View Controller-->
+        <scene sceneID="djg-AJ-2hU">
+            <objects>
+                <viewController id="8iy-1o-gdr" customClass="FAQsViewController" customModule="Outcast_Sport_Fishing_Final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ypt-6B-Zx6"/>
+                        <viewControllerLayoutGuide type="bottom" id="7bR-KN-GvW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Ly-AP-m9j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5nT-Ra-WEY">
+                                <rect key="frame" x="0.0" y="20" width="375" height="614"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5wW-mW-17b">
+                                <rect key="frame" x="310" y="626" width="49" height="33"/>
+                                <state key="normal" image="SharkBtn">
+                                    <color key="titleColor" red="0.80373185869999997" green="0.37657582760000002" blue="0.0035840924829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="HomePressed:" destination="8iy-1o-gdr" eventType="touchUpInside" id="p3A-ZN-FAY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="5wW-mW-17b" firstAttribute="trailing" secondItem="1Ly-AP-m9j" secondAttribute="trailingMargin" id="G7u-OP-Sjs"/>
+                            <constraint firstItem="5nT-Ra-WEY" firstAttribute="leading" secondItem="1Ly-AP-m9j" secondAttribute="leading" id="HZu-Tp-jMW"/>
+                            <constraint firstItem="7bR-KN-GvW" firstAttribute="top" secondItem="5nT-Ra-WEY" secondAttribute="bottom" constant="33" id="O9f-O0-UH7"/>
+                            <constraint firstItem="5nT-Ra-WEY" firstAttribute="top" secondItem="ypt-6B-Zx6" secondAttribute="bottom" id="gSh-vw-S0c"/>
+                            <constraint firstAttribute="trailing" secondItem="5nT-Ra-WEY" secondAttribute="trailing" id="lrb-NJ-rfa"/>
+                            <constraint firstItem="7bR-KN-GvW" firstAttribute="top" secondItem="5wW-mW-17b" secondAttribute="bottom" constant="8" id="t1R-pA-WhC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Container" destination="5nT-Ra-WEY" id="Wcl-qk-s9I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r5j-d2-yfh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2790" y="-197"/>
+        </scene>
+        <!--Meet Chip View Controller-->
+        <scene sceneID="x15-FF-3cC">
+            <objects>
+                <viewController id="H25-62-ON6" customClass="MeetChipViewController" customModule="Outcast_Sport_Fishing_Final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LBY-WD-mPt"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Pc-wr-7mM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7dE-QK-npo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="be9-MB-XYb">
+                                <rect key="frame" x="0.0" y="20" width="375" height="612"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tea-yT-6fS">
+                                <rect key="frame" x="310" y="626" width="49" height="33"/>
+                                <state key="normal" image="SharkBtn">
+                                    <color key="titleColor" red="0.80373185869999997" green="0.37657582760000002" blue="0.0035840924829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="HomePressed:" destination="H25-62-ON6" eventType="touchUpInside" id="7X2-XT-4o4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="2Pc-wr-7mM" firstAttribute="top" secondItem="be9-MB-XYb" secondAttribute="bottom" constant="35" id="INA-cx-SgP"/>
+                            <constraint firstItem="2Pc-wr-7mM" firstAttribute="top" secondItem="Tea-yT-6fS" secondAttribute="bottom" constant="8" id="O16-zu-6uQ"/>
+                            <constraint firstAttribute="trailing" secondItem="be9-MB-XYb" secondAttribute="trailing" id="gSf-1r-MQe"/>
+                            <constraint firstItem="be9-MB-XYb" firstAttribute="top" secondItem="LBY-WD-mPt" secondAttribute="bottom" id="meH-VT-HxM"/>
+                            <constraint firstItem="be9-MB-XYb" firstAttribute="leading" secondItem="7dE-QK-npo" secondAttribute="leading" id="wAa-7Z-fc0"/>
+                            <constraint firstItem="Tea-yT-6fS" firstAttribute="trailing" secondItem="7dE-QK-npo" secondAttribute="trailingMargin" id="zQO-T3-OFy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Container" destination="be9-MB-XYb" id="4B8-f8-OFg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yDb-EI-GtF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="804" y="448"/>
+        </scene>
+        <!--Videos View Controller-->
+        <scene sceneID="hTl-FT-aN0">
+            <objects>
+                <viewController id="rUP-i1-lgj" customClass="VideosViewController" customModule="Outcast_Sport_Fishing_Final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hys-d1-FjD"/>
+                        <viewControllerLayoutGuide type="bottom" id="OdH-U2-qun"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7ul-2G-ndp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q6x-eD-mf6">
+                                <rect key="frame" x="0.0" y="20" width="375" height="614"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIo-Tr-kIc">
+                                <rect key="frame" x="310" y="626" width="49" height="33"/>
+                                <state key="normal" image="SharkBtn">
+                                    <color key="titleColor" red="0.80373185869999997" green="0.37657582760000002" blue="0.0035840924829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="HomePressed:" destination="rUP-i1-lgj" eventType="touchUpInside" id="HYo-iq-QyG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kIo-Tr-kIc" firstAttribute="trailing" secondItem="7ul-2G-ndp" secondAttribute="trailingMargin" id="KCY-Hb-RzR"/>
+                            <constraint firstAttribute="trailing" secondItem="q6x-eD-mf6" secondAttribute="trailing" id="QC8-6d-hKX"/>
+                            <constraint firstItem="q6x-eD-mf6" firstAttribute="top" secondItem="Hys-d1-FjD" secondAttribute="bottom" id="iEs-8S-mjV"/>
+                            <constraint firstItem="OdH-U2-qun" firstAttribute="top" secondItem="q6x-eD-mf6" secondAttribute="bottom" constant="33" id="l1U-O5-Qo7"/>
+                            <constraint firstItem="OdH-U2-qun" firstAttribute="top" secondItem="kIo-Tr-kIc" secondAttribute="bottom" constant="8" id="prP-v4-6Ix"/>
+                            <constraint firstItem="q6x-eD-mf6" firstAttribute="leading" secondItem="7ul-2G-ndp" secondAttribute="leading" id="qN4-Oh-AcX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Container" destination="q6x-eD-mf6" id="w9R-7I-51o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F5X-5k-MJk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1492" y="448"/>
+        </scene>
+        <!--Fish Targeted View Controller-->
+        <scene sceneID="lLg-jO-4Pf">
+            <objects>
+                <viewController id="gHn-hz-ydO" customClass="FishTargetedViewController" customModule="Outcast_Sport_Fishing_Final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SrB-Lr-pPu"/>
+                        <viewControllerLayoutGuide type="bottom" id="gCL-za-qEC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tpT-Ei-bxH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AW2-ov-uXz">
+                                <rect key="frame" x="0.0" y="20" width="375" height="613"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKE-KU-Ymz">
+                                <rect key="frame" x="310" y="626" width="49" height="33"/>
+                                <state key="normal" image="SharkBtn">
+                                    <color key="titleColor" red="0.80373185869999997" green="0.37657582760000002" blue="0.0035840924829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="HomePressed:" destination="gHn-hz-ydO" eventType="touchUpInside" id="vCT-2m-Ed8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="AW2-ov-uXz" firstAttribute="top" secondItem="SrB-Lr-pPu" secondAttribute="bottom" id="4kS-iw-bDu"/>
+                            <constraint firstItem="AW2-ov-uXz" firstAttribute="leading" secondItem="tpT-Ei-bxH" secondAttribute="leading" id="9yj-xk-G57"/>
+                            <constraint firstItem="gCL-za-qEC" firstAttribute="top" secondItem="gKE-KU-Ymz" secondAttribute="bottom" constant="8" id="Blf-w3-qgH"/>
+                            <constraint firstItem="gCL-za-qEC" firstAttribute="top" secondItem="AW2-ov-uXz" secondAttribute="bottom" constant="34" id="IOz-MI-M7C"/>
+                            <constraint firstAttribute="trailing" secondItem="AW2-ov-uXz" secondAttribute="trailing" id="aeA-Pz-LJ4"/>
+                            <constraint firstItem="gKE-KU-Ymz" firstAttribute="trailing" secondItem="tpT-Ei-bxH" secondAttribute="trailingMargin" id="ghZ-qh-Hfy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Container" destination="AW2-ov-uXz" id="B47-fZ-SJD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b11-0y-HQh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2153" y="448"/>
+        </scene>
+        <!--Charter Rates View Controller-->
+        <scene sceneID="HEL-Ok-FIr">
+            <objects>
+                <viewController id="2LE-uR-Q0Z" customClass="CharterRatesViewController" customModule="Outcast_Sport_Fishing_Final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xdm-ed-TFU"/>
+                        <viewControllerLayoutGuide type="bottom" id="y0U-Sw-VAV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FzG-0a-f1e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L0c-U5-8QD">
+                                <rect key="frame" x="0.0" y="20" width="375" height="615"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xUw-Z6-ppI">
+                                <rect key="frame" x="310" y="626" width="49" height="33"/>
+                                <state key="normal" image="SharkBtn">
+                                    <color key="titleColor" red="0.80373185869999997" green="0.37657582760000002" blue="0.0035840924829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="HomePressed:" destination="2LE-uR-Q0Z" eventType="touchUpInside" id="uDQ-Gl-EhM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xUw-Z6-ppI" firstAttribute="trailing" secondItem="FzG-0a-f1e" secondAttribute="trailingMargin" id="4Kh-hE-0hU"/>
+                            <constraint firstItem="y0U-Sw-VAV" firstAttribute="top" secondItem="xUw-Z6-ppI" secondAttribute="bottom" constant="8" id="7li-iz-GgD"/>
+                            <constraint firstAttribute="trailing" secondItem="L0c-U5-8QD" secondAttribute="trailing" id="Bdo-bW-itb"/>
+                            <constraint firstItem="L0c-U5-8QD" firstAttribute="top" secondItem="Xdm-ed-TFU" secondAttribute="bottom" id="Dtj-ib-XIP"/>
+                            <constraint firstItem="y0U-Sw-VAV" firstAttribute="top" secondItem="L0c-U5-8QD" secondAttribute="bottom" constant="32" id="McL-6r-lDn"/>
+                            <constraint firstItem="L0c-U5-8QD" firstAttribute="leading" secondItem="FzG-0a-f1e" secondAttribute="leading" id="c1o-bq-t6r"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Container" destination="L0c-U5-8QD" id="wHi-Vu-aQp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ecc-0P-58h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2790" y="448"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CaptChip" width="960" height="639"/>
+        <image name="CharterRates" width="160" height="100"/>
+        <image name="FAQs" width="160" height="100"/>
+        <image name="FB-f-Logo__blue_512" width="512" height="512"/>
+        <image name="FishTargeted" width="160" height="100"/>
+        <image name="Instagram-icon" width="512" height="512"/>
+        <image name="MeetChip" width="160" height="100"/>
+        <image name="NewsBtn" width="160" height="100"/>
+        <image name="Outcast-Sport-Fishing-Logo" width="608" height="224"/>
+        <image name="Photos" width="160" height="100"/>
+        <image name="SharkBtn" width="49" height="33"/>
+        <image name="Twitter_Logo_White_On_Blue" width="400" height="400"/>
+        <image name="Videos" width="160" height="100"/>
+        <image name="WCCCTWBtn" width="160" height="100"/>
+    </resources>
+</document>
